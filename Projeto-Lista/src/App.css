@@ -1,0 +1,98 @@
+body{
+  font-family: Arial;
+  background-color: white;
+  padding: 30px;
+  background: radial-gradient(circle at 0.2% 1.8%, rgb(255, 90, 8) 0%, rgb(88, 0, 0) 100.2%);
+}
+
+.app {
+  max-width: 600px;
+  background-color: whitesmoke;
+  margin-left: 300px;
+  padding-top: 2px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+h1{
+  margin-bottom: 10px;
+}
+
+button{
+  background-color: rgb(214, 17, 17);
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px black solid;
+  margin-right: 10px;
+}
+
+button:hover{
+  background-color: rgb(255, 255, 255);
+  color: red;
+}
+
+.concluir{
+  margin-left: 400px;
+  margin-top: -20px;
+  display: flex;
+}
+
+.excluir{
+  margin-left: 480px;
+  margin-top: -27px;
+  display: flex;
+}
+
+
+.formulario{
+  padding-bottom: 20px;
+}
+
+input{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(4, 4, 4);
+  border-radius: 5px;
+  width: 90%;
+}
+
+select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(4, 4, 4);
+  border-radius: 5px;
+  width: 92%;
+}
+
+.formulario {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+
+.tarefa{
+  background-color: #f3eeee;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-left: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.tarefa:hover{
+margin-left: -30px;
+transition: ease 1s;
+}
